@@ -1,7 +1,7 @@
 const notes = require('express').Router();
 const util = require('util');
 
-// Promise version fs.readFile
+// Promise version of fs.readFile
 const readFromFile = util.promisify(fs.readFile);
 
 const writeToFile = (destination, content) => 
