@@ -3,6 +3,9 @@ const path = require('path');
 const app = express();
 // const api = require('./routes/index.js')
 
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')))
+
 
 //GET Route for notes.html
 app.get('/notes', (req, res) => 
