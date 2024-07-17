@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const api = require('./routes/notes');
-// const api = require('./routes/index.js')
+const api = require('./routes');
+
 
 // Set static folder
 app.use(express.json());
