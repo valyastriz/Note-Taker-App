@@ -1,9 +1,9 @@
-const notes = require('express').Router();
 const fs = require('fs');
 const util = require('util');
 
 // Promise version of fs.readFile
 const readFromFile = util.promisify(fs.readFile);
+const writeFile = util.promisify(fs.writeFile);
 
 const writeToFile = (destination, content) => 
     fs.writeFile(destination, JSON.stringify(content, null, 4), (err) =>
@@ -22,4 +22,4 @@ const readAndAppend = (content, file) => {
     });
 };
 
-module.exports = { readFromFile, writeToFile, readAndAppend };
+module.exports = { readFromFile, writeFile, writeToFile, readAndAppend };

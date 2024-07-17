@@ -1,16 +1,17 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "This is a new note",
+        "text": "This is the body of the new notes",
+        "id": "e2a27582-3214-4f85-80f4-76766970c2c2"
     },
     {
-        "title": "Title TESTER",
-        "text": "This is a text note again",
-        "id": "4bdea5f0-b0ef-4014-a95d-a5cb9a6a5dfe"
+        "title": "This is note # 2",
+        "text": "This is the body of note # 2",
+        "id": "7655f036-c986-4546-9cdd-c2d00372653b"
     },
     {
-        "title": "Another Test Note",
-        "text": "This here is another test note. Just trying to see if it will work",
-        "id": "8d50c05b-963f-45e6-9a16-0907aa00dba9"
+        "title": "THis is a new note",
+        "text": "THis is the body of the new note",
+        "id": "5659d417-28c1-45e8-bb1e-d7d7f876e780"
     }
 ]
